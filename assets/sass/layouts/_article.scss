@@ -1,0 +1,78 @@
+.article {
+    margin-top: 90px;
+    border-top: 2px solid $Platinum;
+    &__naomi {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        align-items: center;
+        text-align: center;
+
+
+        &__img {
+            border: 1px solid $Platinum;
+        }
+
+
+        &__datos {
+            line-height: 1.5;
+
+            & h2 {
+                font-family: $display;
+                color: $Raisin-black;
+                margin: 0;
+            }
+
+            & a {
+                display: block;
+                font-size: $large;
+
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+
+            @media (min-width: 525px){
+                & h2 {
+                    margin-right: 50px;
+                    margin-bottom: 10px;
+                    width: 200px;
+
+                }
+            }
+        }
+
+        &__text {
+            display: none;
+        }
+
+        @media (min-width: 768px) {
+            &__text {
+                display: block;
+                line-height: 2.8;
+
+            }
+        }
+
+        @media (min-width: 525px){
+            &__img{
+              margin-right: 50px;
+            }
+        }
+
+    }
+
+    @media (min-width: 525px) {
+        &__naomi {
+            flex-direction: row;
+            text-align: left;
+        }
+    }
+
+    &__pagination {
+        background-color: $Platinum;
+        padding: 50px 0;
+
+    }
+}

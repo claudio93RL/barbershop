@@ -1,0 +1,38 @@
+//buttons
+
+.button {
+    color: $White;
+    background-color: $Nickel;
+    border-radius: 20px;
+    border-color:transparent;
+    outline: none;
+    text-transform: capitalize;
+        &--small{
+            padding: 10px 2px;
+            &:hover{
+                background-color: $Light-gray;
+            }
+            &:focus{
+                background-color: $Nickel;
+                border-width: 3px;
+                border-style:solid;
+                border-color: $Light-gray;
+            }
+        }
+        // botones dispositivo tablet ++
+        @media (min-width:768px){
+            &--large{
+                padding: 10px 30px;
+                &:hover{
+                    background-color: $Light-gray;
+                }
+                &:focus{
+                    background-color: $Nickel;
+                    border-width: 3px;
+                    border-style:solid;
+                    border-color: $Light-gray;
+                }
+            }
+        }
+}
+

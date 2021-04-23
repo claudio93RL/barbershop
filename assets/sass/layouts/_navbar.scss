@@ -1,0 +1,22 @@
+.nav__logo {
+    width: 100px;
+}
+
+.navbar {
+    background-color: $Eerie-black;
+    padding: 20px 0;
+    &-nav{
+        margin-left: auto;
+    }
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: $White;
+    &:hover{
+        color: $Fuzzy-wuzzy;
+    }
+    &-active{
+        color: $Fuzzy-wuzzy
+    }
+}
+

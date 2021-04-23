@@ -1,0 +1,35 @@
+//contenido principal
+
+.main {
+    margin-top: 60px;
+    text-align: left;
+
+
+    &__titulo {
+        font-weight: $light;
+        font-size: $medium;
+        margin-bottom: 40px;
+        color: $Nickel;
+
+    }
+
+    &__container p {
+        width: 100%;
+        margin-bottom: 35px;
+        line-height: 3;
+
+        & span {
+            color: $Fuzzy-wuzzy;
+        }
+    }
+
+    @media (min-width: 525px) {
+        &__container p {
+            width: 100%;
+        }
+    }
+
+    &__button button {
+        margin-right: 10px;
+    }
+}

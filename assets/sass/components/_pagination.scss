@@ -1,0 +1,34 @@
+//pagination
+// modificacion de clases bootstrap
+
+.pagination {
+    
+    justify-content: center;
+    .page-link {
+        color: $Eerie-black;
+        padding: 8px;
+        &:hover {
+            background-color: $Nickel;
+            color: $white;
+        }
+        // pagination dispositivos tablet ++
+        @media (min-width:768px){
+            &   {
+                padding: 8px 12px;
+            }
+        }
+    }
+
+    .page-item:first-child .page-link--left {
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+
+    .page-item:last-child .page-link--right {
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+
+    }
+
+}
+

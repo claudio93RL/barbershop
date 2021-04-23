@@ -1,0 +1,16 @@
+.thumbnails {
+    border-radius: 100%;
+
+    &--small {
+        height: 100px;
+        width: 100px;
+    }
+
+    @media (min-width: 525px) {
+        &--large {
+            height: 200px;
+            width: 200px;
+        }
+        
+    }
+}

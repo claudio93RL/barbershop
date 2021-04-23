@@ -1,0 +1,25 @@
+// links
+
+// color scheme
+
+.link{
+    text-decoration: none;
+    &--primary {
+        color: $Spanish-pink;
+        &:hover{
+            color: $Raisin-black;
+        }
+        &:active{
+            color: $Light-gray;
+        }
+    }
+    &--secondary {
+        color: $Raisin-black;
+    }
+    &--light {
+        color: $Light-gray;
+    }
+    &--dark {
+        color: $Eerie-black;
+    }
+}
