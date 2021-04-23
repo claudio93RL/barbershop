@@ -10272,7 +10272,7 @@ body {
 }
 
 p {
-  font-size: 12px;
+  font-size: 13px;
   color: #6c6e70;
 }
 
@@ -10333,6 +10333,7 @@ svg {
 
 .link {
   text-decoration: none;
+  font-size: 20px;
 }
 .link--primary {
   color: #ecbcba;
@@ -10398,7 +10399,7 @@ svg {
 }
 .main__titulo {
   font-weight: 300;
-  font-size: 16px;
+  font-size: 20px;
   margin-bottom: 40px;
   color: #6c6e70;
 }
@@ -10421,7 +10422,7 @@ svg {
 
 .header {
   background-image: url("../img/post-image.jpg");
-  background-position: inherit;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 70vh;
@@ -10551,7 +10552,6 @@ svg {
 }
 .article__naomi__datos a {
   display: block;
-  font-size: 30px;
 }
 .article__naomi__datos a:hover {
   text-decoration: none;
